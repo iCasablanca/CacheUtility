@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CacheUtilityViewController : UIViewController {
-
+	IBOutlet UITextField *text;
+	IBOutlet UILabel *cached_text;
+	IBOutlet UIButton *submit;
 }
 
 @end
