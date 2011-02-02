@@ -14,9 +14,11 @@
 	IBOutlet UILabel *cached_text;
 	IBOutlet UIButton *submit;
 	IBOutlet UIButton *remove_cache;
+	IBOutlet UIButton *retrieve_cache;
 }
 
 -(IBAction)submit_text;
+-(IBAction)retrieve_cached_text;
 
 @end
 

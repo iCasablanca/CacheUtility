@@ -40,6 +40,9 @@
 	[CacheUtil cacheItems:text.text for:@"text_key"];
 }
 
+-(IBAction)retrieve_cached_text{
+	cached_text.text = [CacheUtil cachedItemsFor:@"text_key"];
+}
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
