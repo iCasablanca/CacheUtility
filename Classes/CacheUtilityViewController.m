@@ -30,13 +30,15 @@
 */
 
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
-*/
 
+-(IBAction)submit_text{
+	[CacheUtil cacheItems:text.text for:@"text_key"];
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.

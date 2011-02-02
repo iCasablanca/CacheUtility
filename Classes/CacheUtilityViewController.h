@@ -16,5 +16,7 @@
 	IBOutlet UIButton *remove_cache;
 }
 
+-(IBAction)submit_text;
+
 @end
 
