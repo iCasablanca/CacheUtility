@@ -12,6 +12,7 @@
 	IBOutlet UITextField *text;
 	IBOutlet UILabel *cached_text;
 	IBOutlet UIButton *submit;
+	IBOutlet UIButton *remove_cache;
 }
 
 @end
