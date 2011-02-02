@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CacheUtil.h"
 
 @interface CacheUtilityViewController : UIViewController {
 	IBOutlet UITextField *text;
