@@ -19,6 +19,7 @@
 
 -(IBAction)submit_text;
 -(IBAction)retrieve_cached_text;
+-(IBAction)remove_cached_text;
 
 @end
 
