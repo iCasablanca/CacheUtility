@@ -38,6 +38,7 @@
 
 -(IBAction)submit_text{
 	[CacheUtil cacheItems:text.text for:@"text_key"];
+	[text resignFirstResponder];
 }
 
 -(IBAction)retrieve_cached_text{
