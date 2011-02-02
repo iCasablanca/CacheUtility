@@ -25,7 +25,7 @@ Copy files from CacheUtilitySource into your project and import
 </pre>
 
 # Tips
-You can use CacheUtility to cache JSon or Xml item
+You can use CacheUtility to cache JSon or Xml url item
 
 # FUTURE
 
