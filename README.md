@@ -1,6 +1,6 @@
 # ABOUT
 
-Simple cache implementation using NSUserDefaults
+Simple cache implementation for iPhone and iPad using NSUserDefaults
 
 # HOW TO USE
 
