@@ -19,7 +19,7 @@
 
 +(void)cacheItems:(NSString*)item for:(NSString*)key {
 	NSUserDefaults* defaults= [NSUserDefaults standardUserDefaults];
-	[defaults setObject:item forKey:key;
+	[defaults setObject:item forKey:key];
 }
 
 +(void)removeCacheItem:(NSString*)key {
